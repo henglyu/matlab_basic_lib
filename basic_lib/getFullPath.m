@@ -160,7 +160,7 @@ else
 end
 
 % 目录存在性检测，并给予提醒
-if(exist(fullpath,'dir'))
+if(exist(fullpath,'file'))
     if(nargin > 0 && ~isempty(inputstr) && isempty(locs))
         fullpath = fullfile(pwd,fullpath);
     end
