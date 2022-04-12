@@ -1,0 +1,9 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Javi\Dropbox\Proyectos\ECG\Programacion\Matlab\ecg_gui\for_redistribution" />
+  <mkdir dir="C:\Users\Javi\Dropbox\Proyectos\ECG\Programacion\Matlab\ecg_gui\for_testing" />
+</ant>
+mcc -C -o ecg_gui -W main:ecg_gui -T link:exe -d C:\Users\Javi\Dropbox\Proyectos\ECG\Programacion\Matlab\ecg_gui\for_testing -v C:\Users\Javi\Dropbox\Proyectos\ECG\Programacion\Matlab\ecg_gui.m 
+Test checkout of feature 'Compiler' failed.
+
+mcc failed.
